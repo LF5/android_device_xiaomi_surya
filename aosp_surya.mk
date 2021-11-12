@@ -24,6 +24,14 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
+# Inherit some common ArcaneOS stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+ARCANA_OFFICIAL := true
+ARCANA_DEVICE := surya
+ARCANA_MAINTAINER := dlwlrma123/hazama25
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
+
 PRODUCT_NAME := aosp_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
