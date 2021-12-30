@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libqcompostprocbundle \
+    libldacBT_bco \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libtinycompress \
