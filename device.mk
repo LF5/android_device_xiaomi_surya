@@ -57,8 +57,7 @@ PRODUCT_PACKAGES += \
     libldacBT_bco \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libtinycompress \
-    libvolumelistener
+    libtinycompress
 
 PRODUCT_PACKAGES += \
     libaudio-resampler
