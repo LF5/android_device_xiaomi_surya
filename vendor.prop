@@ -174,7 +174,7 @@ ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
 
 # perf
-ro.vendor.perf.scroll_opt=true
+debug.hwui.use_buffer_age=false
 
 # graphics
 debug.cpurend.vsync=false
