@@ -177,6 +177,7 @@ ro.config.sdha_apps_bg_min=8
 debug.hwui.use_buffer_age=false
 
 # graphics
+debug.hwui.renderer=skiagl
 debug.cpurend.vsync=false
 debug.sf.disable_client_composition_cache=1
 
