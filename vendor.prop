@@ -114,6 +114,14 @@ persist.vendor.dpm.feature=1
 persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
+# dalvik heap
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+
 # dalvik
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
