@@ -144,6 +144,15 @@ pm.dexopt.first-boot=speed-profile
 pm.dexopt.ab-ota=speed-profile
 pm.dexopt.install=speed-profile
 
+#go_defaults_common.mk
+pm.dexopt.downgrade_after_inactive_days=10
+pm.dexopt.shared=quicken
+ro.lmk.critical_upgrade=true
+ro.lmk.upgrade_pressure=40
+ro.lmk.downgrade_pressure=60
+ro.lmk.kill_heaviest_task=false
+ro.statsd.enable=false
+
 # memory opts
 ro.vendor.qti.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
