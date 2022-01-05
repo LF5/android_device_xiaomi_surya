@@ -124,7 +124,7 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_CMDLINE += kpti=off
 
 # LMKD
-TARGET_LMKD_STATS_LOG := true
+TARGET_LMKD_STATS_LOG := false
 
 # Media
 TARGET_USES_ION := true
