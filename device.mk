@@ -27,9 +27,6 @@ PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
